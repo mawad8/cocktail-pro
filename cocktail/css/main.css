@@ -1,0 +1,321 @@
+@font-face {
+    font-family: jm;
+    src: url("../font/jm.ttf");
+}
+@font-face {
+    font-family: hp;
+    src: url("../font/hp.otf");
+}
+@font-face {
+    font-family: sd;
+    src: url("../font/sd.ttf");
+}
+.ditem{
+	/*border:1px solid;
+	border-radius: 6px;*/
+	background-color: rgba(255, 255, 255, 0.3);
+
+	width: 20%;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+}
+.ditem img{
+	margin-top: 10px;
+	width: 80%;
+}
+.ditem h4{
+	border:1px solid;
+	border-radius: 10px;
+	background-color: #ccc;
+	margin-top: 5px;
+	font-size: 20px;
+	color: #2d0d01;
+}
+.ditem h6{
+	border:1px solid;
+	border-radius: 10px;
+	background-color: #ccc;
+	margin-top: 3px;
+	font-size: 16px;
+	color: black;
+}
+#clock{
+	position: fixed;
+	top: 10px;
+	display: inline-block;
+	width: 15%;
+	text-align: center;
+	border: 1px solid;
+	margin: 0 auto;
+	margin-left: 17%;
+	border-radius: 10px;
+	color: #fd6969 ;
+}
+#all i{
+	position: absolute;
+	left: 51%;
+	top: 23%;
+	color: cyan;
+
+}
+
+#all{
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+
+}
+#s{
+
+	padding: 5px;
+	margin-left: 40%;
+	margin-top: 6%;
+	size: 40px;
+	padding: 2px;
+}
+#top{
+	background-color: cyan;
+}
+#top h1{
+	font-family: jm;
+	font-size: 40px;
+	display: inline-block;
+	margin-top: 2%;
+	margin-left: 2%;
+
+}
+#top ul{
+	
+	display: inline-block;
+	margin-top: 3%;
+	float: right;
+	margin-right: 40px;
+}
+#top li{
+	display: inline-block;
+}
+
+#top a{
+	font-family: hp;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 10px;
+	color: black;
+	
+}
+#top a:hover{
+	border-bottom: 2px solid black;
+}
+#top i{
+	margin-left: 10px;
+	color: #fd6969; 
+}
+#all{
+	background-image: url(..//img/ec.png);
+	height: 400px;
+}
+
+#al{
+	display: inline-block;
+	height: 250px;
+	width: 100%;
+	margin-top: 3%;
+
+}
+#kolo  i{
+	display: inline-block;
+	margin-left: 50%;
+	color:#fd6969;
+	margin-top: 20px;
+
+}
+.left{
+	display: inline-block;
+	width: 45%;
+	margin-left: 3%;
+
+}
+.left h3{
+	font-family: bs;
+	font-size: 35px;
+
+}
+.left p{
+	background-color: #c1c1c152;
+	padding: 8px;
+	border: 2px solid gray;
+	border-radius: 10px 10px;
+	font-family: ;
+	font-size: ;
+
+}
+.right{
+	display: inline-block;
+	width: 45%;
+	margin-left: 4%;
+}
+.right p{
+	background-color: #c1c1c152;
+	padding: 8px;
+	border: 2px solid gray;
+	border-radius: 10px 10px;
+	font-family: ;
+	font-size: ;
+
+}
+#main{
+	margin-left: 6%;
+}
+#main h1{
+	font-family: sd;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+#main h1 i{
+	color: cyan;
+}
+#main h3{
+	text-align: center;
+	margin-top: 4%;
+	
+}
+.top div{
+	display: inline-block;
+	width: 19%;
+	text-align: center;
+}
+.bottom div{
+	display: inline-block;
+	width: 19%;
+	text-align: center;
+	margin-top: 4%;
+}
+
+}
+.v2 {
+	text-align: center;
+	background-color: black;
+}
+.text-center a{
+	color: #8883d4;
+	font-size: 15px;
+}
+.text-center img:hover{
+	cursor: pointer;
+     transition: 2s;
+	height: 130px;
+
+	
+}
+.text-center a:hover{
+	font-family: jm;
+	cursor: pointer;
+	border-bottom: 2px solid black;
+transition: 2s;
+	color: #ef0c0c;
+	font-size: 20px;
+
+}
+#main h3{
+	font-family: sd;
+	font-size: 70px;
+
+}
+#main h3 i{
+	color: yellow;
+}
+
+#last{
+	height: 500px;
+		background-image: url(..//img/do.jpg);
+		background-size: cover;
+		text-align: center;
+		margin-top: 5%;
+		padding: 2%;
+	}
+	#last h1{
+		color: white;
+		padding: 10px;
+		font-size: 50px;
+	}
+	#last p{
+		color: white;
+		font-family: sd;
+		font-size: 35px;
+	}
+	#last input{
+		border:1px solid #fff;
+		border-radius: 2px;
+		background-color: transparent;
+		display: block;
+		margin: 10px auto;
+		padding: 10px;
+		width: 30%;
+		color: white;
+		font-size: 14px;
+		letter-spacing: normal;
+	}
+#last textarea{
+	
+	background-color: transparent;
+	border:1px solid #fff;
+		border-radius: 2px;
+		padding: 10px;
+		color: white;
+		font-size: 14px;
+}
+#last button{
+	display: block;
+	padding: 5px 90px;
+	border: 1px solid white;
+	border-radius: 3px;
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+	margin-left: 40%;
+	margin-top: 2%;
+}
+#last button:hover{
+	color: blue;
+	background-color: white;
+	transition: 2s;
+
+}
+.done{
+	height: 100px;
+	background-color: #e6e2e2;
+}
+.done p{
+	display: inline-block;
+	padding: 2% 8%;
+	padding-top: 3%;
+}
+
+.done div{
+	float: right;
+	padding: 2% 8%;
+	padding-top: 3%;
+}
+.done div i{
+	/*background-color: aqua;*/
+	padding-left:  20px;
+	padding-right: 20px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
